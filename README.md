@@ -25,8 +25,13 @@ passwords. In the more extreme situations redirecting users to sites that contai
       - [URLVoid](https://www.urlvoid.com/)
       - [Link checker](https://www.psafe.com/dfndr-lab/)
       - [Safe Browsing site status](https://transparencyreport.google.com/safe-browsing/search)
-5.
-6.
+5. **Phone Number Reverse Lookups**
+   - We can also attempt to find more information about the number that send the message. Below are some of the tools to use:
+      - [Reverse Phone Lookup](http://www.reversephonelookup.com)
+      - [tellows](https://www.tellows.co.za/)
+      - Also use the Google operator `" "` to find exact matches of the number (e.g `"011 111 1111"`)
+      - You can also search the phone number of social media platforms such as Facebook or Twitter  
+7.
 
 
 **Additional Information**

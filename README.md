@@ -27,12 +27,17 @@ passwords. In the more extreme situations redirecting users to sites that contai
       - [Safe Browsing site status](https://transparencyreport.google.com/safe-browsing/search)
 5. **Phone Number Reverse Lookups**
    - We can also attempt to find more information about the number that send the message. Below are some of the tools to use:
-      - [Reverse Phone Lookup](http://www.reversephonelookup.com)
       - [tellows](https://www.tellows.co.za/)
+      - [Reverse Phone Lookup](http://www.reversephonelookup.com)
       - Also use the Google operator `" "` to find exact matches of the number (e.g `"011 111 1111"`)
       - You can also search the phone number of social media platforms such as Facebook or Twitter  
-7.
-
+7. **SMS Short Code Reverse Lookups**
+   - SMS Short Codes are used to send and receive messages, this provides another opportunity to find out more about the attacker
+   - You can utilize the following sites to lookup SMS short codes:
+      - [WASPA](https://codes.waspa.org.za/)
+      - [WASPA](https://www.smscodes.co.za/index.asp)
+      - [Shortcodes.org](https://shortcodes.org/#)
+      - [SMS Gateway Center](https://www.smsgatewaycenter.com/trace-shortcode.html)
 
 **Additional Information**
 1. [Learn How to Forensically Examine Phishing Emails to Better Protect Your Organization Today](https://www.knowbe4.com/hubfs/KB4-ForensicsPhishing_Slides.pdf?hsLang=en)

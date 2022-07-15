@@ -16,12 +16,17 @@ passwords. In the more extreme situations redirecting users to sites that contai
 1. **Convert short URLs to “expanded” URLs**
    - Because it can be difficult to determine the validity of a URL when it has been shortened, the URL should be *"expanded"*
    - [expandurl.net](https://www.expandurl.net/) is a service where you can find an expanded version of a shortened URL and other metadata about the destination site
-3. **Open URLs using free online service**
-   - While you can setup an enviroment in a VM to investigate the impact of running a suspected URL, in this guide we focus on accessible online services
-   - 
+3. **Is the URL Safe to open?**
+   - To determine if a URL is safe to open, we will utilize online services that compares the URL against a list of known malicious URLs
+   -  Of course some new URLs will not be in such databases so when necessary you can open the URL in a VM ans use proxies for full visibility, this is however not covered in this guide
+   - Below is a list of online services you can use to determine if a URL is safe to visit
+      - [VirusTotal](https://www.virustotal.com/gui/home/url)
+      - 
 5.
 6.
-7.
+7. **Other**
+   - Open URLs in VM
+   - Use web local proxies to view code
 
 **Additional Information**
 1. [Learn How to Forensically Examine Phishing Emails to Better Protect Your Organization Today](https://www.knowbe4.com/hubfs/KB4-ForensicsPhishing_Slides.pdf?hsLang=en)

@@ -21,7 +21,10 @@ passwords. In the more extreme situations redirecting users to sites that contai
    -  Of course some new URLs will not be in such databases so when necessary you can open the URL in a VM ans use proxies for full visibility, this is however not covered in this guide
    - Below is a list of online services you can use to determine if a URL is safe to visit
       - [VirusTotal](https://www.virustotal.com/gui/home/url)
-      - 
+      - [https://www.phishtank.com/](PhishTank)
+      - [https://www.urlvoid.com/](URLVoid)
+      - [https://www.psafe.com/dfndr-lab/](Link checker)
+      - [https://transparencyreport.google.com/safe-browsing/search](Safe Browsing site status)
 5.
 6.
 7. **Other**

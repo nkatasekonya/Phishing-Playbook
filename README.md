@@ -43,5 +43,7 @@ passwords. In the more extreme situations redirecting users to sites that contai
 1. [Learn How to Forensically Examine Phishing Emails to Better Protect Your Organization Today](https://www.knowbe4.com/hubfs/KB4-ForensicsPhishing_Slides.pdf?hsLang=en)
 1. [incident-response-plan-template](https://github.com/counteractive/incident-response-plan-template)
 
-`TODO: add an example analysing a smishing attack`  
+### Example Case
+
+
 `TODO: model around Investigate, Remediate (contain, eradicate), and Communicate`

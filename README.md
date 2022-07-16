@@ -7,7 +7,7 @@
 
 **Table of Contents**
 1. [Playbook: Smishing](./Smishing-Playbook.md)
-   - [Example Case: A $1.95 iPhone 13?](Smishing-Playbook.md#example-case---a-195-iphone-13)
+   - [Example Case: A $1.95 iPhone 13?](https://github.com/nkatasekonya/Phishing-Playbook/blob/main/Smishing-Playbook.md#example-case---a-195-iphone-13)
 2. [Playbook: Phishing](./Phishing-Playbook.md)
 
 **Additional Information**

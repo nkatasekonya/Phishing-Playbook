@@ -25,6 +25,7 @@ passwords. In the more extreme situations redirecting users to sites that contai
       - [URLVoid](https://www.urlvoid.com/)
       - [Link checker](https://www.psafe.com/dfndr-lab/)
       - [Safe Browsing site status](https://transparencyreport.google.com/safe-browsing/search)
+   - To view how the site looks like without actually opening the URL, use [Shrink the Web](https://shrinktheweb.com/). By simply providing a URL, the service will present you with screenshots of how the site looks like
 5. **Phone Number Reverse Lookups**
    - We can also attempt to find more information about the number that send the message. Below are some of the tools to use:
       - [tellows](https://www.tellows.co.za/)
@@ -43,7 +44,26 @@ passwords. In the more extreme situations redirecting users to sites that contai
 1. [Learn How to Forensically Examine Phishing Emails to Better Protect Your Organization Today](https://www.knowbe4.com/hubfs/KB4-ForensicsPhishing_Slides.pdf?hsLang=en)
 1. [incident-response-plan-template](https://github.com/counteractive/incident-response-plan-template)
 
-### Example Case
+### Example Case - `A $1.95 iPhone 13?`
+In this case a phisher using the number `+27872406524` send a user a message requesting them to confirm their credentials for a package delivery. It should be noted that the user was not expecting any package, so it is easy to see that this is a ploy to get their credentials. However with phishers sending out messages like this, it means somewhere somehow people are falling for the scam. We are perfoming this analysis to understand them more.  
+![Example Case](./img/smishing/example_case.jpeg)
 
+1. **URL: `nevbf.com/90t4F0`**  
+   - The URL in this case is displayed *"as-is"* so there is no need to use a service like `expandurl.net` however it can be used to find metadata about the site. 
+   - We should determine if the URL is safe to open, we start by checking it on [VirusTotal](https://www.virustotal.com/gui/home/url). As we can see below the URL has not been flagged as malicious by vendoers
+   ![Virus Total Capture](./img/smishing/virus_total.png)
+   - Scanning the URL on [URLVoid](https://www.urlvoid.com/) we can get more metadata as shown below
+   ![URL Void](./img/smishing/url_void_1.png)
+   ![URL Void](./img/smishing/url_void_2.png)
+   - Although the URL is not flagged as malicious, it is adviced that it not be opened. Hence we utilize [Shrink the web](https://shrinktheweb.com/) to take screenshoots of the site, as shown below. We can see that in this attack, the phishers want the user to provide their **name, surname, email address and phone number** to buy an **iPhone 13** for the generous price of **$1.95**. With the alleged purchase the user will also have to provide them with their **banking details**, which clearly points out that the **motive of this attack is a financial one**, rather than identity theft. It is also important to note how there is a **countdown timer** indicating that this offer is valid only for the next 5 minutes. Attackers do this in order to get the user to perform an action they would not perform under normal circumstances, I'd imagine a user rushing to fill in all those details so that they can purchase their iPhone  
+   ![Shrink the Web Capture](./img/smishing/shrink_the_web.jpeg)
+2. **Phone Number Reverse Lookups**
+   - Now that we know the aim of the attack, let us try to find out who is behind it. The message was send from `+27872406524` which is a South African number
+   - By seaching `"+27872406524"` on Google we get a few hits. On [tellows](https://www.tellows.co.za/) we see complains about this number going back as far as **2019**, in our case the message was received on **14 July 2022**. To have been active for such long with the same scam means it has been successful thus far, which is unfortunate. As shown below users are pointing out that this is a scam as you simply cannot buy an iPhone 12 in this case for `R25 ~ $1.4`. It is also important to note that this is a **VoIP** number, leading to an assumption that this could be an operation run out of a full fledged office. You can visit https://www.tellows.co.za/num/0872406524 to view all reviews about this number 
+   ![Tellows Capture](./img/smishing/tellows.png)
+3. **Remarks**
+   - If a site ever pressures you into a decision (like how the site in question indicated that the user only has 5 minutes to make the transation), this is ussually done to get you to act in a way that you would not if you stop to think about it
+   - Also, if something is too good to be true, it's ussually a scam. Our attacker in this case is selling an iPhone 13 for the very generous price of $1.95 which is impossible considering the price range of the phone  
+   - Users are adviced not to visit the site, as it has malicious intent
 
 `TODO: model around Investigate, Remediate (contain, eradicate), and Communicate`

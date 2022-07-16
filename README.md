@@ -40,10 +40,6 @@ passwords. In the more extreme situations redirecting users to sites that contai
       - [Shortcodes.org](https://shortcodes.org/#)
       - [SMS Gateway Center](https://www.smsgatewaycenter.com/trace-shortcode.html)
 
-**Additional Information**
-1. [Learn How to Forensically Examine Phishing Emails to Better Protect Your Organization Today](https://www.knowbe4.com/hubfs/KB4-ForensicsPhishing_Slides.pdf?hsLang=en)
-1. [incident-response-plan-template](https://github.com/counteractive/incident-response-plan-template)
-
 ### Example Case - `A $1.95 iPhone 13?`
 In this case a phisher using the number `+27872406524` send a user a message requesting them to confirm their credentials for a package delivery. It should be noted that the user was not expecting any package, so it is easy to see that this is a ploy to get their credentials. However with phishers sending out messages like this, it means somewhere somehow people are falling for the scam. We are perfoming this analysis to understand them more.  
 ![Example Case](./img/smishing/example_case.jpeg)
@@ -65,5 +61,9 @@ In this case a phisher using the number `+27872406524` send a user a message req
    - If a site ever pressures you into a decision (like how the site in question indicated that the user only has 5 minutes to make the transation), this is ussually done to get you to act in a way that you would not if you stop to think about it
    - Also, if something is too good to be true, it's ussually a scam. Our attacker in this case is selling an iPhone 13 for the very generous price of $1.95 which is impossible considering the price range of the phone  
    - Users are adviced not to visit the site, as it has malicious intent
+
+**Additional Information**
+1. [Learn How to Forensically Examine Phishing Emails to Better Protect Your Organization Today](https://www.knowbe4.com/hubfs/KB4-ForensicsPhishing_Slides.pdf?hsLang=en)
+1. [incident-response-plan-template](https://github.com/counteractive/incident-response-plan-template)
 
 `TODO: model around Investigate, Remediate (contain, eradicate), and Communicate`

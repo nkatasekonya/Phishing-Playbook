@@ -48,6 +48,7 @@ As stated in the introduction, a Phishing attack is a type of social engineering
    - Sometimes only shows domain name and you have to use `nslookup` to find IP address
       - `nslookup example.com`
    - You can use [`iplocation.net`](https://www.iplocation.net/) to find out general geo-location data of the IP address
+   - Another resource to use is [IP Info](https://ipinfo.io/)
    - Does the IP address of MTA belong to service it claims to be from?
       - Possibly malicious phish if MTA is a public SMTP SAS service from supposedly big brand name company
       - Examples (These are public email servers, so will probably not be used by a big company)
